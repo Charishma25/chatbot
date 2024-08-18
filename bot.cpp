@@ -50,7 +50,7 @@ int main()
 
     cout<<"\t\t\t<============================================= W E L C O M E ==========================================>"<<endl;
     cout<<"\t\t\t<============================================= I'M A VIRTUAL ASSISTANT ==========================================>"<<endl;
-    cout<<"\t\t\t<============================================= MY NAME IS Aditi ==========================================>"<<endl;
+    cout<<"\t\t\t<============================================= MY NAME IS Charishma ==========================================>"<<endl;
     cout<<"\t\t\t<============================================= I'M HERE TO HELP YOU ==========================================>"<<endl<<endl;
 
     char password[20]; //to take password
@@ -71,7 +71,7 @@ int main()
         STARTUPINFO startInfo = {0};
         PROCESS_INFORMATION processInfo = {0};
 
-        if(strcmp(password, "chauhan")==0){
+        if(strcmp(password, "start")==0){
             cout<<"\n<==================================================================================================>\n\n";
             wishme();
             do{
@@ -107,7 +107,7 @@ int main()
                 
                 else if(strcmp(ch, "who are you") == 0 || strcmp(ch, "tell me about yourself") == 0 || strcmp(ch, "about") == 0 ){
                     cout<<"I'm a virtual assistant created by Aditi !!!"<<endl;
-                    string phrase = "I am a virtual assistant created by Aditi";
+                    string phrase = "I am a virtual assistant created by Charishma";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -180,7 +180,7 @@ int main()
 
                     cout << "\t\t\t<============================= W E L C O M E=============================>" << endl;
                     cout << "\t\t\t<============================= I'M VIRTUAL ASSISTANT =============================>" << endl;
-                    cout << "\t\t\t<============================= MY NAME IS Aditi =============================>" << endl;
+                    cout << "\t\t\t<============================= MY NAME IS Charishma =============================>" << endl;
                     cout << "\t\t\t<============================= I'M HERE TO HELP YOU AND MAKE YOUR LIFE EASY =============================>" << endl
                          << endl;
 
